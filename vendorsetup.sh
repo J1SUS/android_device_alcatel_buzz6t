@@ -1,0 +1,2 @@
+add_lunch_combo lineage_buzz6t-userdebug
+add_lunch_combo lineage_buzz6t-eng
