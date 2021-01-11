@@ -11,15 +11,15 @@ $(call inherit-product, device/alcatel/buzz6t/buzz6t.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := buzz6t
 PRODUCT_NAME := lineage_buzz6t
-PRODUCT_BRAND := Alcatel
+PRODUCT_BRAND := TCL
 PRODUCT_MODEL := 5044R
-PRODUCT_MANUFACTURER := TCL
-PRODUCT_RELEASE_NAME := BUZZ6T
+PRODUCT_MANUFACTURER := Alcatel
+PRODUCT_RELEASE_NAME := CameoX
 
 # Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="buzz6t-user 5.1.1 LMY47V vA73-0 release-keys" \
-    BUILD_FINGERPRINT="TCL/5044R/Pop35:5.1.1/LMY47V/vA73-0:user/release-keys"
+    PRIVATE_BUILD_DESC="BUZZ6T4GGOPHONE-user 7.0 NRD90M YB4 release-keys" \
+    BUILD_FINGERPRINT="TCL/Alcatel_5044R/BUZZ6T4GGOPHONE:7.0/NRD90M/YB4:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-alcatel
 
